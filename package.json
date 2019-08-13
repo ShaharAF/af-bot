@@ -17,8 +17,7 @@
     "start": "probot run ./src/robot.js",
     "lint": "standard --fix",
     "test": "jest && standard",
-    "test:watch": "jest --watch --notify --notifyMode=change --coverage",
-    "build": "npm run start"
+    "test:watch": "jest --watch --notify --notifyMode=change --coverage"
   },
   "dependencies": {
     "axios": "~0.19.0",
