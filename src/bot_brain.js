@@ -53,6 +53,7 @@ module.exports = class BotBrain {
                     //the user didn't change the template at all
                     api.createComment(this.context, "Hi there, thanks for the issue, but it seem that this issue is just the default template. Please create a new issue with the template filled out.")
                     api.closeIssue(this.context)
+                    break
                 }
 
                 if (missingHeadersInTemplate.length == 0) {
