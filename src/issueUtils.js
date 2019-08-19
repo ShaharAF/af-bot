@@ -60,8 +60,14 @@ function formatMissingHeadersToString(missingHeadersDict) {
     return msg
 }
 
+function isAgingIssue(agingTime, issue) {
+    return issue.deltaDays > agingTime
+}
+
 module.exports = {
     getIssuesTemplates,
     compareIssueToTemplate,
-    formatMissingHeadersToString
+    formatMissingHeadersToString,
+    getDecryptedContent,
+    isAgingIssue
 }

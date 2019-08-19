@@ -4,6 +4,13 @@ async function asyncForEach(array, callback) {
     }
 }
 
+function compareContent(content, otherContent) {
+    content = content.replace(/(\r\n|\n|\r)/gm, "\n");
+    otherContent = otherContent.replace(/(\r\n|\n|\r)/gm, "\n");
+    return content == otherContent
+}
+
 module.exports = {
-    asyncForEach
+    asyncForEach,
+    compareContent
 }
