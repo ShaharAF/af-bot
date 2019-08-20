@@ -17,7 +17,6 @@ module.exports = bot => {
     })
 
     bot.on("schedule.repository", async (context) => {
-        //will be triggered every 50 sec
         const app = await getAppFromContext(context)
         context.log("scheduler activated")
 
