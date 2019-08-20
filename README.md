@@ -17,7 +17,7 @@ You can force the user to follow a given issue template. If the user doesn't fol
 The bot can close and label old issues after a predefined amount of time being inactive. 
 
 ## Usage
-1.  **[Configure the GitHub App](https://github.com/apps/stale)**
+1.  **[Configure the GitHub App](https://github.com/apps/appsflyerbot)**
 2. In order to enable filtering aging issues: Create `.github/bot_config.yml` based on the following template.
 3.  The script runs every hour
 4.  In order to Enable Issue template enforcing first [open a new issue template]([https://help.github.com/en/articles/creating-issue-templates-for-your-repository](https://help.github.com/en/articles/creating-issue-templates-for-your-repository))
