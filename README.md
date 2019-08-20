@@ -11,12 +11,12 @@ This bot has multiply functionalities:
 ### Issue template enforcing
 You can force the user to follow a given issue template. If the user doesn't follow the template, the bot will alert the user about the missing fields and will close the issue.  
 
-![template enforcing]<docs/missing_template.png>
+![template enforcing](/docs/missing_template.png)
 
 ### Filtering aging issues
 The bot can close and label old issues after a predefined amount of time being inactive. 
 
-![aging issue]<docs/aging_issue.png>
+![aging issue](/docs/aging_issue.png)
 
 ## Usage
 1.  **[Configure the GitHub App](https://github.com/apps/appsflyerbot)**
